@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\color-night-v8\\material_timepicker_modebutton_tint.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\2178bafcc203a1169f715c2992dbb5fd\\material-1.4.0\\res\\color-night-v8\\material_timepicker_modebutton_tint.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\color-night-v8\\material_timepicker_clockface.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\2178bafcc203a1169f715c2992dbb5fd\\material-1.4.0\\res\\color-night-v8\\material_timepicker_clockface.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\color-night-v8\\material_timepicker_button_stroke.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\2178bafcc203a1169f715c2992dbb5fd\\material-1.4.0\\res\\color-night-v8\\material_timepicker_button_stroke.xml"
+    }
+]

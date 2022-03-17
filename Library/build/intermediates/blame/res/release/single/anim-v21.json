@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\anim-v21\\mtrl_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\2178bafcc203a1169f715c2992dbb5fd\\material-1.4.0\\res\\anim-v21\\mtrl_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\anim-v21\\fragment_fast_out_extra_slow_in.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\2e4afd5be29019635f2ee75da7876016\\fragment-1.3.6\\res\\anim-v21\\fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\2178bafcc203a1169f715c2992dbb5fd\\material-1.4.0\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\2178bafcc203a1169f715c2992dbb5fd\\material-1.4.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\anim-v21\\mtrl_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\2178bafcc203a1169f715c2992dbb5fd\\material-1.4.0\\res\\anim-v21\\mtrl_bottom_sheet_slide_in.xml"
+    }
+]

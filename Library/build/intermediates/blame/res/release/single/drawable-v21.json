@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\069b48573e0d554b7450b49c6b47de12\\appcompat-1.3.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\drawable-v21\\mtrl_navigation_bar_item_background.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\2178bafcc203a1169f715c2992dbb5fd\\material-1.4.0\\res\\drawable-v21\\mtrl_navigation_bar_item_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\069b48573e0d554b7450b49c6b47de12\\appcompat-1.3.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\069b48573e0d554b7450b49c6b47de12\\appcompat-1.3.1\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\069b48573e0d554b7450b49c6b47de12\\appcompat-1.3.1\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\6e88e60e82714d2f09016fa2f4cc40db\\core-1.5.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\069b48573e0d554b7450b49c6b47de12\\appcompat-1.3.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\KotlinApplication\\qliLibrary\\build\\intermediates\\res\\merged\\release\\drawable-v21\\material_cursor_drawable.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\2178bafcc203a1169f715c2992dbb5fd\\material-1.4.0\\res\\drawable-v21\\material_cursor_drawable.xml"
+    }
+]
