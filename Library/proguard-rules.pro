@@ -95,3 +95,4 @@
 }
 
 -keep class  com.q.util.*
+-keep class com.google.gson.** { *; }

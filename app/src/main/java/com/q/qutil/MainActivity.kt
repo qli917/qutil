@@ -1,8 +1,7 @@
 package com.q.qutil
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import org.greenrobot.eventbus.EventBus
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

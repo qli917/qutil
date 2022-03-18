@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.content.pm.Signature;
 import android.content.pm.SigningInfo;
 import android.graphics.drawable.Drawable;
@@ -769,7 +770,22 @@ public final class AppUtils {
         }
         return list;
     }
-
+    /*
+     *获取桌面应用
+     * */
+    public static List<AppInfo> getDesktopApps() {
+        List<AppInfo> list = new ArrayList<>();
+        PackageManager pm = Utils.getApp().getPackageManager();
+        Intent intent = new Intent();
+        intent.addCategory(Intent.CATEGORY_LAUNCHER);
+        intent.setAction(Intent.ACTION_MAIN);
+        final List<ResolveInfo> infos = pm.queryIntentActivities(intent, 0);
+        for (ResolveInfo resolveInfo : infos) {
+            if (resolveInfo == null) continue;
+            list.add(getApkInfo(getAppPath(resolveInfo.activityInfo.packageName)));
+        }
+        return list;
+    }
     /**
      * Return the application's package information.
      *
