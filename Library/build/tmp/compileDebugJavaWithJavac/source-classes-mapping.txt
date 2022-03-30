@@ -365,3 +365,5 @@ com/q/util/PhoneUtils.java
 com/q/util/TimeUtils.java
  com.q.util.TimeUtils
  com.q.util.TimeUtils$1
+com/q/util/InstallAppUtil.java
+ com.q.util.InstallAppUtil
