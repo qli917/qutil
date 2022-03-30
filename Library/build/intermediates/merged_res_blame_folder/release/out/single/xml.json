@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "L:\\qutil\\Library\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge_gravity_top_start.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\f5a14f7a698394ac74a3318ee1aa7773\\material-1.4.0\\res\\xml\\standalone_badge_gravity_top_start.xml"
+    },
+    {
+        "merged": "L:\\qutil\\Library\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge_offset.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\f5a14f7a698394ac74a3318ee1aa7773\\material-1.4.0\\res\\xml\\standalone_badge_offset.xml"
+    },
+    {
+        "merged": "L:\\qutil\\Library\\build\\intermediates\\res\\merged\\release\\xml\\util_code_provider_paths.xml",
+        "source": "L:\\qutil\\Library\\src\\main\\res\\xml\\util_code_provider_paths.xml"
+    },
+    {
+        "merged": "L:\\qutil\\Library\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\f5a14f7a698394ac74a3318ee1aa7773\\material-1.4.0\\res\\xml\\standalone_badge.xml"
+    },
+    {
+        "merged": "L:\\qutil\\Library\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge_gravity_bottom_end.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\f5a14f7a698394ac74a3318ee1aa7773\\material-1.4.0\\res\\xml\\standalone_badge_gravity_bottom_end.xml"
+    },
+    {
+        "merged": "L:\\qutil\\Library\\build\\intermediates\\res\\merged\\release\\xml\\standalone_badge_gravity_bottom_start.xml",
+        "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\f5a14f7a698394ac74a3318ee1aa7773\\material-1.4.0\\res\\xml\\standalone_badge_gravity_bottom_start.xml"
+    }
+]

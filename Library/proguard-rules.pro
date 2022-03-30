@@ -94,5 +94,6 @@
     void *(**On*Listener);
 }
 
--keep class  com.q.util.*
+-keep class  com.q.util.** { *; }
+-keep class  com.q.constant.** { *; }
 -keep class com.google.gson.** { *; }

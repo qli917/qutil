@@ -1,2 +1,6 @@
-package com.q.qutil;public class TEST {
+package com.q.qutil;
+
+public class TEST {
+    void init() {
+    }
 }

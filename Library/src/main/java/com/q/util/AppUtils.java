@@ -15,12 +15,13 @@ import android.net.Uri;
 import android.os.Build;
 import android.util.Log;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.content.FileProvider;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 
 
 public final class AppUtils {
@@ -56,6 +57,49 @@ public final class AppUtils {
      */
     public static void installApp(final String filePath) {
         installApp(UtilsBridge.getFileByPath(filePath));
+    }
+
+
+    /**
+     * 安装 apk 文件
+     *
+     * @param apkFile apk 文件
+     */
+    public static void installApk(File apkFile) {
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        //放在此处
+        //由于没有在Activity环境下启动Activity,所以设置下面的标签
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
+        Uri apkUri = null;
+        //判断版本是否是 7.0 及 7.0 以上
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            apkUri = FileProvider.getUriForFile(Utils.getApp(), AppUtils.getAppPackageName() + ".fileProvider", apkFile);
+            //添加这一句表示对目标应用临时授权该Uri所代表的文件
+            intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        } else {
+            apkUri = Uri.fromFile(apkFile);
+        }
+
+        intent.setDataAndType(apkUri,
+                "application/vnd.android.package-archive");
+        ActivityUtils.startActivity(intent);
+    }
+
+    public static void install(Context context,final String filePath) {
+        final File appFile = new File(filePath);
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            Uri fileUri = FileProvider.getUriForFile(context, context.getPackageName() + ".fileProvider", appFile);
+            intent.setDataAndType(fileUri, "application/vnd.android.package-archive");
+            intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        } else {
+            intent.setDataAndType(Uri.fromFile(appFile), "application/vnd.android.package-archive");
+        }
+        context.startActivity(intent);
     }
 
     /**
@@ -770,6 +814,7 @@ public final class AppUtils {
         }
         return list;
     }
+
     /*
      *获取桌面应用
      * */
@@ -786,6 +831,7 @@ public final class AppUtils {
         }
         return list;
     }
+
     /**
      * Return the application's package information.
      *
@@ -852,13 +898,13 @@ public final class AppUtils {
      */
     public static class AppInfo {
 
-        private String   packageName;
-        private String   name;
+        private String packageName;
+        private String name;
         private Drawable icon;
-        private String   packagePath;
-        private String   versionName;
-        private int      versionCode;
-        private boolean  isSystem;
+        private String packagePath;
+        private String versionName;
+        private int versionCode;
+        private boolean isSystem;
 
         public Drawable getIcon() {
             return icon;

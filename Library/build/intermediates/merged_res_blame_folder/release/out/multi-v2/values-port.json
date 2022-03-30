@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "L:\\qutil\\Library\\build\\intermediates\\res\\merged\\release\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\680c8c38341b36b8925be0643fc143aa\\appcompat-1.3.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "L:\\qutil\\Library\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\liqu5\\.gradle\\caches\\transforms-2\\files-2.1\\680c8c38341b36b8925be0643fc143aa\\appcompat-1.3.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

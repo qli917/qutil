@@ -30,6 +30,11 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
 }
 
 dependencies {
@@ -39,8 +44,19 @@ dependencies {
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
     implementation project(path: ':Library')
-    implementation files('libs\\hikframework.jar')
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+//    implementation project(path: ':Library')
+//    implementation files('libs\\hikframework.jar')
+//    testImplementation 'junit:junit:4.+'
+//    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+//    implementation(name: 'qutil', ext: 'aar')
+//    implementation 'com.blankj:utilcodex:1.31.0'
+
+//    implementation(name: 'hik_download', ext: 'aar')
+//
+//    {
+//        exclude group : 'com.google.code.gson'
+//        // exclude any group or module
+//    }
+
 }

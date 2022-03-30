@@ -1,0 +1,8 @@
+com.q.util.FileIOUtils:
+    public static void <clinit>()
+com.q.util.InstallManagerUtil:
+    public static void <clinit>()
+com.q.util.KeyboardUtils:
+    public static void <clinit>()
+com.q.util.ToastUtils$ActivityToast:
+    public static void <clinit>()

@@ -1,14 +1,14 @@
 package com.q.qutil
 
-import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.hikvision.parameter.HikParameterInterface
-import com.q.util.LogUtils
-import com.q.util.Utils
+import com.q.util.AppUtils
+import com.q.util.SDCardUtils
+import com.q.util.UriUtils
+import java.io.File
 
-
-//import com.hikvision.enterprisedesktop.EDaidl
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,24 +16,31 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        LogUtils.json(HikParameterInterface.getInstance().apply {
-            setContentResolver(Utils.getApp().contentResolver)
-        }.getStrPara("appPassword"))
-//        EDaidl.getInstance(this)
+        val intent = Intent(Intent.ACTION_VIEW)
 
-//        bindService(Intent().apply {
-//            setPackage("com.hikvision.enterprisedesktop")
-//        }, object : ServiceConnection {
-//            override fun onServiceConnected(name: ComponentName?, service: IBinder?) {
-//                ed = ED.Stub.asInterface(service)
-//                LogUtils.i(ed.installApp)
-//                ed.password = "7897987798"
+        intent.addCategory(Intent.CATEGORY_DEFAULT)
+
+        intent.setDataAndType(
+            UriUtils.file2Uri(File("${SDCardUtils.getSDCardPathByEnvironment()}/hikservice/qq.apk"))
+            ,
+            "application/vnd.android.package-archive"
+        )
+
+        startActivity(intent)
+        AppUtils.installApp("")
+//        AppUtils.install(this,"${SDCardUtils.getSDCardPathByEnvironment()}/hikservice/qq.apk")
+
+//        edMessage = EDMessage.Builder().init(this).setServiceListener(object : ServiceListener {
+//            override fun onServiceConnected(service: Boolean) {
+//                edMessage.password = "dasdasdas"
 //            }
 //
-//            override fun onServiceDisconnected(name: ComponentName?) {
-//                ToastUtils.showLong("fuwu")
+//            override fun onServiceDisconnected() {
+//
 //            }
-//        }, BIND_AUTO_CREATE)
+//        }).build().also {
+//            it.bindService()
+//        }
 
     }
 }
